@@ -1,0 +1,12 @@
+name: Run tests
+
+on:
+  - pull_request
+  - push
+
+jobs:
+  ci:
+    uses: houseabsolute/workflow-perl-dzil-ci/.github/workflows/ci.yml@debug
+    with:
+      dist: Workflow-Testing
+      ref: debug
