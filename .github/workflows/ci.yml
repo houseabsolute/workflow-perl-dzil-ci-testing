@@ -6,7 +6,7 @@ on:
 
 jobs:
   ci:
-    uses: houseabsolute/workflow-perl-dzil-ci/.github/workflows/ci.yml@debug
+    uses: houseabsolute/workflow-perl-dzil-ci/.github/workflows/ci.yml@v0
     with:
       dist: Workflow-Testing
-      ref: debug
+      ref: v0
